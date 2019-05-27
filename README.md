@@ -90,5 +90,14 @@ TODO irgendwas
 
 TODO irgendwas
 
-### 
+
+
+## Building the Project
+
+The Build Settings can be found at File > Build Settings
+Different platforms can be chosen here. To build a game for PC the first option can be chosen.
+
+TODO: screenshot
+
+After clicking Build and choosing a destination the Application will be built. The finished build can be executed without having the Unity Editor installed.
 
