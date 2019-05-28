@@ -2,7 +2,17 @@
 
 ## Contents
 
-[TOC]
+- [Unity - Basics](#unity---basics)
+  * [Using Unity with GitHub](#using-unity-with-github)
+  * [Scripting Essentials](#scripting-essentials)
+    + [Using your favourite IDE](#using-your-favourite-ide)
+    + [Creating a new Script](#creating-a-new-script)
+    + [Basic Script](#basic-script)
+    + [Variables](#variables)
+    + [Accessing Objects and Components](#accessing-objects-and-components)
+    + [User Input](#user-input)
+  * [Building the Project](#building-the-project)
+  * [Help?!](#help--)
 
 ## Using Unity with GitHub
 
@@ -73,15 +83,19 @@ In Unity public global variables of certain types can be seen and edited at runt
 ### Accessing Objects and Components
 
 The GameObject to which the C# script is assigned can be accessed by using ***gameObject***. 
+
 `GameObject go = gameObject;`
 
 Finding other GameObjects can be done in several ways. The easiest way is to use the ***Find*** method from the GameObject class. 
+
 `GameObject go = GameObject.Find("Player");`
 
 To access the component of a certain GameObject ***getComponent*** can be called on the GameObject.
+
 `Collider col = go.GetComponent<Collider>();`
 
 The Transform component of a GameObject doesn't have to be accessed using *getComponent* but can be accessed just by using ***transform*** on the GameObject.
+
 `Vector3 position = go.transform.position; `
 
 ### User Input
@@ -91,7 +105,9 @@ The Input manager can be found at Edit > Project Settings > Input. Here you can 
 ![](images\inputman.PNG)
 
 Input can be accessed from a script by using the Input class and the name of the input. Input can act as a key or an axis.
+
 `bool keyDown = Input.GetButtonDown("Fire1");`
+
 `float axisValue = Input.GetAxis("Horizontal") `
 
 ## Building the Project
