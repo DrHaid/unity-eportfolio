@@ -53,6 +53,7 @@ You can navigate in Unity by using the mouse and your keyboard.
  
 If you want to create a new Project, you have to go in the Unity Hub or start the Unity Version you want and press on "New".
 After that the following Imange should appear:
+
 ![](/images/CreateNewProject.PNG)
 
 For our purpose you should select 3D.
@@ -60,6 +61,7 @@ For our purpose you should select 3D.
 ### Elements of the Unity UI
 
 ![](/images/UnityUI.PNG)
+
 - On the left you can see all Elements that are currently in your Scene
 - On the right you see the Inspector of a current GameObject/Material/...
 - in the bottom you see you project directory
