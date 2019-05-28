@@ -12,7 +12,7 @@
     + [Accessing Objects and Components](#accessing-objects-and-components)
     + [User Input](#user-input)
   * [Building the Project](#building-the-project)
-  * [Help?!](#help--)
+  * [Help](#help)
 
 ## Using Unity with GitHub
 
@@ -20,7 +20,7 @@ In order to share a Unity project on GitHub without complications there are a fe
 
 Edit > Project Settings > Editor
 
-![](C:\Users\Luis\Documents\softwareengDEV\unity-eportfolio\images\editorsett.PNG)
+![](/images/editorsett.PNG)
 
 1. Show Meta-Files
 
@@ -51,7 +51,7 @@ If you don't have a favourite C# development environment you can use the IDE Uni
 
 Edit > Preferences > External Tools
 
-![](images\customide.PNG)
+![](/images/customide.PNG)
 
 ### Creating a new Script
 
@@ -78,7 +78,7 @@ In Unity public global variables of certain types can be seen and edited at runt
 
 `public int speed;`
 
-![](images\publicint.PNG)
+![](/images/publicint.PNG)
 
 ### Accessing Objects and Components
 
@@ -102,7 +102,7 @@ The Transform component of a GameObject doesn't have to be accessed using *getCo
 
 The Input manager can be found at Edit > Project Settings > Input. Here you can label and configure possible Keyboard and Controller input to reference them in a script.
 
-![](images\inputman.PNG)
+![](/images/inputman.PNG)
 
 Input can be accessed from a script by using the Input class and the name of the input. Input can act as a key or an axis.
 
@@ -115,11 +115,11 @@ Input can be accessed from a script by using the Input class and the name of the
 The Build Settings can be found at File > Build Settings
 Different platforms can be chosen here. To build a game for PC the first option can be chosen but before being able to build, a scene has to be added.  Click **Add Open Scenes** to add the current Unity-Scene to the build.
 
-![](images\buildsett.PNG)
+![](/images/buildsett.PNG)
 
 After clicking Build and choosing a destination the Application will be built. The finished build can be executed without having the Unity Editor installed.
 
-## Help?!
+## Help
 
 - <https://docs.unity3d.com/2019.2/Documentation/Manual/>
 - <https://stackoverflow.com/questions/tagged/unity3d>
