@@ -40,6 +40,46 @@ Edit > Project Settings > Editor
    <https://github.com/github/gitignore/blob/master/Unity.gitignore>
 
 
+## Unity UI
+
+### Camera movement
+
+You can navigate in Unity by using the mouse and your keyboard.
+ - when you press the right mouse button you can turn around
+ - using the middle mouse button you can move in the scene in this direction
+ - when you keep the right mouse button pressed and use the w/s/a/d key you can fly in the scene 
+ 
+### Create a new Project
+ 
+If you want to create a new Project, you have to go in the Unity Hub or start the Unity Version you want and press on "New".
+After that the following Imange should appear:
+![](/images/CreateNewProject.PNG)
+
+For our purpose you should select 3D.
+
+### Elements of the Unity UI
+
+![](/images/UnityUI.PNG)
+- On the left you can see all Elements that are currently in your Scene
+- On the right you see the Inspector of a current GameObject/Material/...
+- in the bottom you see you project directory
+- and in the middle your view of the scene or the game
+
+## Basic Components
+
+### GameObject
+
+![](/images/GameObject.PNG)
+
+GameObejcts are physical things in your scene.
+
+### Material
+
+As you can see in the picture above the Cube has a color this color is a Material as you can see in the inspector of the Cube.
+
+### Prefab
+
+A Prefab is a combination of Multiple Gameobjects.
 
 ## Scripting Essentials 
 
